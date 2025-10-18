@@ -1,0 +1,17 @@
+# Instalação
+pip install -r requirements.txt
+
+# Configuração
+# Edite config.py com caminho do Stockfish
+
+# Processamento
+python main.py --pgn_folder ./pgns --depth 13
+
+# Análise
+python analyze_dataset.py dataset_rashid_tal.csv --player "Mikhail Tal"
+
+# Comparação
+python analyze_dataset.py dataset_rashid_tal.csv --compare "Tal" "Nezhmetdinov"
+
+# Testes
+pytest test_pipeline.py -v

@@ -1,0 +1,14 @@
+# === requirements.txt ===
+# Pipeline Rashid–Tal: Dependências Python
+
+# Core chess
+python-chess>=1.999
+# Análise de dados
+pandas>=2.0.0
+# Progress bars
+tqdm>=4.65.0
+
+# Opcional (para desenvolvimento)
+# pytest>=7.0.0
+# black>=23.0.0
+# mypy>=1.0.0

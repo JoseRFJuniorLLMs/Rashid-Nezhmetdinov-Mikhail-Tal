@@ -1,0 +1,9 @@
+# Project: PGN Processor for Rashid/ Tal dataset
+# Structure: modular python package in single file for canvas preview.
+# Files included below are separated by headers of the form: "# === file: <name> ==="
+
+
+# === file: requirements.txt ===
+python-chess==1.999
+pandas
+tqdm
